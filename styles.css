@@ -7,11 +7,11 @@
 }
 
 body {
-    height: 100vh;
-    margin: 50px;
+    /* height: 100vh; */
+    margin: 0 200px;
     /* margin: 0;
     padding: 0; */
-    overflow: hidden;
+    overflow: auto;
     font-family: Montserrat, sans-serif;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ ul li a {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
     /* padding: 16px; */
@@ -46,19 +46,21 @@ header {
 
 /* Hero */
 
-main {
-    /* width: 50%; */
+.hero {
+    width: auto;
     display: flex;
-    /* margin: 100px; */
-    height: calc(100vh - 100px);
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     /* border: 2px solid red; */
+    margin: 100px auto;
 }
 
+/* .hero div {
+    margin: 16px;
+    padding: 16px;
+} */
 .leftHero {
-    width: 30%;
-    gap: 10px;
+    width: 500px;
     /* border: 2px solid red; */
 }
 
@@ -70,17 +72,41 @@ main {
     max-height: 400px;
 }
 
-.leftHero > h1 {
+.leftHero h1 {
     font-size: 70px;
     margin: 0;
     padding: 0;
 }
 
-.leftHero > h2 {
+.leftHero h2 {
     font-size: 23px;
     color: #00FFBD;
 }
 
-.leftHero > p {
+.leftHero p {
     font-size: 16px;
 }
+
+/* Projects */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 32px;
+
+}
+
+.projects div {
+    border: 1px solid white;
+    height: 300px;
+    width: 400px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.projects h2 {
+    color: #00FFBD;
+}
+
+/* Skill and Technologies*/
