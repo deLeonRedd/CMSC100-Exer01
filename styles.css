@@ -104,6 +104,7 @@ header {
     width: 400px;
     /* gap: 16px; */
     padding: 16px;
+    border-radius: 10px;
 }
 
 .projects h2 {
@@ -111,3 +112,30 @@ header {
 }
 
 /* Skill and Technologies*/
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.skillCard {
+    /* border: 1px solid white; */
+    height: 200px;
+    width: 150px;
+    /* gap: 16px; */
+    padding: 16px;
+    text-align: center;
+    
+}
+
+.skillCard > h2 {
+    margin-top: 10px;
+    color: #999999;
+}
+
+.skillCard > img {
+    max-height: 100px;
+    /* max-width: 100px; */
+}
