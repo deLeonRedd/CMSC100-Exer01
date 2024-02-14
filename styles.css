@@ -7,16 +7,15 @@
 }
 
 body {
-    /* height: 100vh; */
+
     margin: 0 300px;
-    /* margin: 0;
-    padding: 0; */
+
     overflow: auto;
     font-family: Montserrat, sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #181818;
-    /* color: white; */
+
 }
 
 .sectionHeading {
@@ -48,8 +47,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    /* padding: 16px; */
-    /* border: 2px solid red; */
+
 }
 
 /* Hero */
@@ -59,13 +57,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
     margin: 100px auto;
 }
 
 .leftHero {
     width: 70%;
-    /* border: 2px solid red; */
 }
 
 .rightHero {
@@ -78,18 +74,20 @@ header {
 }
 
 .leftHero h1 {
-    font-size: 70px;
+    font-size: 62px;
     margin: 0;
     padding: 0;
 }
 
 .leftHero h2 {
-    font-size: 23px;
+    font-size: 20px;
     color: #00FFBD;
 }
 
 .leftHero p {
     font-size: 16px;
+    max-width: 85%;
+    text-align: justify;
 }
 
 /* Projects */
@@ -113,7 +111,6 @@ header {
     padding: 16px;
     border-radius: 10px;
     text-align: justify;
-
 }
 
 .projects h2 {
@@ -127,7 +124,6 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 32px;
-    /* margin: 32px 0; */
 
 }
 .skills {
@@ -137,10 +133,8 @@ header {
 }
 
 .skillCard {
-    /* border: 1px solid white; */
     height: 200px;
     width: 150px;
-    /* gap: 16px; */
     padding: 16px;
     text-align: center;
     
@@ -154,7 +148,6 @@ header {
 
 .skillCard > img {
     max-height: 100px;
-    /* max-width: 100px; */
 }
 
 /* Footer */
