@@ -1,15 +1,23 @@
+/* 
+DE LEON, Richard Emmanuel D. 
+CMSC 100 - U4L 
+Exercise 1 
+Portfolio using HTML and CSS
+*/
+
+/* Fonts used */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Universal styles */
 * {
     margin: 0;
     padding: 0;
     color: white;
 }
 
+/* Styles for the body */
 body {
-
     margin: 0 300px;
-
     overflow: auto;
     font-family: Montserrat, sans-serif;
     display: flex;
