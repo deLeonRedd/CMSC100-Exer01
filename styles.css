@@ -15,12 +15,16 @@ body {
     font-family: Montserrat, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #292727;
+    background-color: #181818;
     /* color: white; */
 }
 
 .sectionHeading {
     padding-bottom: 10px;
+}
+
+.Logo {
+    max-height: 50px;
 }
 
 /* Header */
@@ -65,11 +69,11 @@ header {
 }
 
 .rightHero {
-    width: 30%;
+    width: 40%;
 }
 
 .portfolioPic {
-    max-height: 400px;
+    max-height: 300px;
     max-width: 300px;
 }
 
@@ -89,14 +93,16 @@ header {
 }
 
 /* Projects */
-
-.projects {
+.projectsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 32px 0;
     gap: 32px;
-
+}
+.projects {
+    display: flex;
+    flex-direction: column;
 }
 
 .projects .projectCard {
@@ -116,12 +122,18 @@ header {
 
 /* Skill and Technologies*/
 
-.skills {
+.skillsContainer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 32px;
-    margin: 32px 0;
+    /* margin: 32px 0; */
+
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 ;
 }
 
 .skillCard {
@@ -143,4 +155,15 @@ header {
 .skillCard > img {
     max-height: 100px;
     /* max-width: 100px; */
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialLinks > img {
+    height: 30px;
 }
