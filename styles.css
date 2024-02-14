@@ -61,15 +61,16 @@ header {
 /* Hero */
 
 .hero {
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 100px auto;
 }
 
 .leftHero {
-    width: 70%;
+    width: 60%;
 }
 
 .rightHero {
@@ -94,7 +95,7 @@ header {
 
 .leftHero p {
     font-size: 16px;
-    max-width: 85%;
+    max-width: 90%;
     text-align: justify;
 }
 
@@ -115,7 +116,6 @@ header {
     border: 1px solid #999999;
     height: 300px;
     width: 350px;
-    /* gap: 16px; */
     padding: 16px;
     border-radius: 10px;
     text-align: justify;
