@@ -165,6 +165,7 @@ footer {
     align-items: center;
     gap: 10px;
 }
-.socialLinks > img {
+.socialLink {
     height: 30px;
+    padding: 5px;
 }
