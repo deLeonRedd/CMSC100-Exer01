@@ -92,17 +92,18 @@ header {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 32px;
+    justify-content: space-between;
+    /* padding: 32px; */
+    gap: 32px;
 
 }
 
-.projects div {
+.projects .projectCard {
     border: 1px solid white;
     height: 300px;
     width: 400px;
+    /* gap: 16px; */
     padding: 16px;
-    margin: 16px;
 }
 
 .projects h2 {
