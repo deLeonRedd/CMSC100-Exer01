@@ -1,6 +1,6 @@
-DE LEON, Richard Emmanuel D. 
-BS Computer Science
-https://deleonredd.github.io/CMSC100-Exer01/
+DE LEON, Richard Emmanuel D.
+</br>BS Computer Science
+</br>https://deleonredd.github.io/CMSC100-Exer01/
 
 How to create github pages
 1. Create a repository for the site.
