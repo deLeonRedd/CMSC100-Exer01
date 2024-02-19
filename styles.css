@@ -17,17 +17,21 @@ Portfolio using HTML and CSS
 
 /* Styles for the body */
 body {
-    margin: 0 300px;
+    /* margin: 0 15rem; */
     overflow: auto;
     font-family: Montserrat, sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #181818;
+    padding: 0 10%;
 
 }
 
 .sectionHeading {
-    padding-bottom: 10px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: #00FFBD;
 }
 
 .Logo {
@@ -51,8 +55,11 @@ ul li a {
 }
 
 header {
+    position: sticky;
     display: flex;
+    /* padding: calc(8px + 1.5625vw); */
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     height: 100px;
 
@@ -63,14 +70,16 @@ header {
 .hero {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    align-content: center;
 }
 
 .leftHero {
-    width: 60%;
+    width: 35rem;
+    /* border: 2px solid red; */
 }
 
 .portfolioPic {
@@ -99,7 +108,8 @@ header {
 .projectsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    flex: 1;
     margin: 32px 0;
     gap: 32px;
 }
@@ -126,6 +136,7 @@ header {
 .skillsContainer {
     display: flex;
     justify-content: space-around;
+    /* padding: 2rem; */
     flex-wrap: wrap;
     gap: 32px;
 
@@ -133,7 +144,8 @@ header {
 .skills {
     display: flex;
     flex-direction: column;
-    margin: 60px 0 ;
+    justify-content: center;
+    /* margin: 60px 0 ; */
 }
 
 .skillCard {
